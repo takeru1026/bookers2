@@ -19,7 +19,7 @@
     　<div class="row">
     　  <a class="btn btn-outline-secondary btn-bloc fas fa-user-cog"href="/users/<%= current_user.id %>/edit", style="width:100%"></a>
     　</div>
-      <%= render 'books/form' %>
+      <%= render 'books/form', book: @book %>
     </div>
     <div class="col-md-8 offset-md-1">
       <h2>User</h2>
